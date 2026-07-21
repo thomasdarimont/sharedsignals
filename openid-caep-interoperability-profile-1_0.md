@@ -1,5 +1,5 @@
 ---
-title: CAEP Interoperability Profile 1.0 - draft 02
+title: CAEP Interoperability Profile 1.0 - draft 01
 abbrev: caep-interop
 docname: caep-interoperability-profile-1_0
 
@@ -480,16 +480,18 @@ specification.
 
 # Notices
 
-Copyright (c) 2025 The OpenID Foundation.
+Copyright (c) 2026 The OpenID Foundation.
 
 The OpenID Foundation (OIDF) grants to any Contributor, developer, implementer,
 or other interested party a non-exclusive, royalty free, worldwide copyright
 license to reproduce, prepare derivative works from, distribute, perform and
-display, this Implementers Draft or Final Specification solely for the purposes
-of (i) developing specifications, and (ii) implementing Implementers Drafts and
-Final Specifications based on such documents, provided that attribution be made
-to the OIDF as the source of the material, but that such attribution does not
-indicate an endorsement by the OIDF.
+display, this Implementers Draft, Final Specification, or Final Specification
+Incorporating Errata Corrections solely for the purposes of (i) developing
+specifications, and (ii) implementing Implementers Drafts, Final Specifications,
+and Final Specification Incorporating Errata Corrections based on such
+documents, provided that attribution be made to the OIDF as the source of the
+material, but that such attribution does not indicate an endorsement by the
+OIDF.
 
 The technology described in this specification was made available from
 contributions from various sources, including members of the OpenID Foundation
@@ -505,17 +507,23 @@ warranties (express, implied, or otherwise), including implied warranties of
 merchantability, non-infringement, fitness for a particular purpose, or title,
 related to this specification, and the entire risk as to implementing this
 specification is assumed by the implementer. The OpenID Intellectual Property
-Rights policy requires contributors to offer a patent promise not to assert
-certain patent claims against other contributors and against implementers. The
-OpenID Foundation invites any interested party to bring to its attention any
-copyrights, patents, patent applications, or other proprietary rights that may
-cover technology that may be required to practice this specification.
+Rights policy (found at openid.net) requires contributors to offer a patent
+promise not to assert certain patent claims against other contributors and
+against implementers. OpenID invites any interested party to bring to its
+attention any copyrights, patents, patent applications, or other proprietary
+rights that may cover technology that may be required to practice this
+specification.
 
 # Document History
-{:numbered="false"}
+
 [[ To be removed from the final specification ]]
 
--02
+-00
+
+* Add opaque to the required subject formats (#137)
+* Initial draft
+
+-01
 
 * Updated OAuth section with clarifications (#325)
 * Minor fixes for publishing (#324)
@@ -530,15 +538,7 @@ cover technology that may be required to practice this specification.
 * Updated network layer protection guidance (#213)
 * Updated out of date links (#227)
 * Updated required SSF spec version to 1_0
-
--01
-
 * Added document history (#189)
 * Specify one event per "events" claim of SET (#179)
 * Include OAuth specifics (#134)
 * Cleaned up markdown (#91)
-
--00
-
-* Add opaque to the required subject formats (#137)
-* Initial draft

@@ -24,6 +24,10 @@ all:
 	@ make openid-caep-1_0.xml
 	@ make openid-caep-1_0.html
 	@ make openid-caep-1_0.txt
+	@ make openid-caep-interoperability-profile-1_0.xml
+	@ make openid-caep-interoperability-profile-1_0.html
+	@ make openid-caep-interoperability-profile-1_0.txt
+
 
 propose:
 	@ cp openid-sharedsignals-framework-1_0.txt ../publication/sharedsignals/openid-sharedsignals-framework-1_0-final.txt
@@ -35,3 +39,7 @@ propose:
 	@ cp openid-caep-1_0.txt ../publication/sharedsignals/openid-caep-1_0-final.txt
 	@ cp openid-caep-1_0.html ../publication/sharedsignals/openid-caep-1_0-final.html
 	@ cp openid-caep-1_0.md ../publication/sharedsignals/openid-caep-1_0-final.md
+	@ cp openid-caep-interoperability-profile-1_0.md ../publication/sharedsignals/openid-caep-interoperability-profile-1_0-01.md
+	@ cp openid-caep-interoperability-profile-1_0.xml ../publication/sharedsignals/openid-caep-interoperability-profile-1_0-01.xml
+	@ cp openid-caep-interoperability-profile-1_0.html ../publication/sharedsignals/openid-caep-interoperability-profile-1_0-01.html
+	@ cp openid-caep-interoperability-profile-1_0.txt ../publication/sharedsignals/openid-caep-interoperability-profile-1_0-01.txt
